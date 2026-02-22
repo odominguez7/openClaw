@@ -1,0 +1,55 @@
+# Secrets and local credentials
+credentials/
+openclaw.json
+openclaw.json.bak*
+openclaw.json.before-restore*
+*.pem
+*.key
+*.token
+*.secret
+
+# Runtime/state artifacts
+logs/
+gateway.log
+delivery-queue/
+media/
+memory/
+devices/
+browser/
+canvas/
+completions/
+cron/
+tools/
+update-check.json
+identity/
+
+# Session/runtime agent state
+agents/*/sessions/
+agents/*/agent/auth-profiles.json
+agents/*/agent/*.db
+agents/*/agent/*.sqlite*
+agents/*/agent/.env
+agents/
+
+# Nested repos and local internals
+**/.git/
+.autosync/autosync.log
+workspace*/memory/
+workspace/.git
+workspace-agent-o/.git
+workspace-blitz/.git
+workspace/.git.nested-*
+workspace-agent-o/.git.nested-*
+workspace-blitz/.git.nested-*
+
+# Large/local workspace artifacts
+workspace/node_modules/
+workspace/secrets/
+workspace/tmp/
+workspace/out/
+workspace/backups/
+workspace/media/
+workspace/tasks.jsonl
+workspace/.openclaw/
+workspace-agent-o/.openclaw/
+workspace-blitz/.openclaw/

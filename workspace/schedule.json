@@ -1,0 +1,97 @@
+{
+  "timezone": "America/New_York",
+  "source": "compat copy of memory/spring-class-schedule.json (created to satisfy older cron jobs)",
+  "courses": {
+    "15.871": "System Dynamics",
+    "15.378": "GSD",
+    "15.281": "Leadership Communication",
+    "15.573": "Gen AI for Managers",
+    "15.392": "Scaling Ent Ventures",
+    "MAS.664": "AI studio",
+    "15.268": "Choice Points"
+  },
+  "weekly": {
+    "Mon": [
+      {
+        "course": "15.871",
+        "title": "System Dynamics",
+        "type": "lec",
+        "start": "10:00",
+        "end": "11:30",
+        "location": "E62-233"
+      },
+      {
+        "course": "15.378",
+        "title": "GSD",
+        "type": "lec",
+        "start": "17:30",
+        "end": "20:00",
+        "location": "E40-160"
+      }
+    ],
+    "Tue": [
+      {
+        "course": "15.281",
+        "title": "Leadership Communication",
+        "type": "lec",
+        "start": "13:00",
+        "end": "14:30",
+        "location": "E62-250"
+      },
+      {
+        "course": "15.392",
+        "title": "Scaling Ent Ventures",
+        "type": "lec",
+        "start": "17:30",
+        "end": "19:00",
+        "location": "E51-335"
+      }
+    ],
+    "Wed": [
+      {
+        "course": "15.871",
+        "title": "System Dynamics",
+        "type": "lec",
+        "start": "10:00",
+        "end": "11:30",
+        "location": "E62-233"
+      }
+    ],
+    "Thu": [
+      {
+        "course": "MAS.664",
+        "title": "AI studio",
+        "type": "lec",
+        "start": "10:00",
+        "end": "12:00",
+        "location": "E14-633"
+      },
+      {
+        "course": "15.281",
+        "title": "Leadership Communication",
+        "type": "lec",
+        "start": "13:00",
+        "end": "14:30",
+        "location": "E62-250"
+      },
+      {
+        "course": "15.392",
+        "title": "Scaling Ent Ventures",
+        "type": "lec",
+        "start": "17:30",
+        "end": "19:00",
+        "location": "E51-335"
+      }
+    ],
+    "Fri": [
+      {
+        "course": "15.268",
+        "title": "Choice Points",
+        "type": "lec",
+        "start": "10:00",
+        "end": "12:00",
+        "location": "E51-345"
+      }
+    ]
+  }
+}
