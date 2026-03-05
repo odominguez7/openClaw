@@ -1,0 +1,12 @@
+---
+description: Protect SAGE (main) from unconfirmed changes
+alwaysApply: true
+---
+
+# SAGE Protection Policy
+
+- `main` is SAGE.
+- Treat `SAGE` and `main` as the same protected agent.
+- Never modify SAGE/main configuration, identity, workspace, memory, routing, tools, or model settings without explicit user confirmation in the current conversation.
+- Before any SAGE/main change, show a clear warning describing risk and impact, then request confirmation.
+- If confirmation is missing or ambiguous, do not proceed with SAGE/main changes.
